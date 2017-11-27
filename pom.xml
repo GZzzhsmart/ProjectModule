@@ -61,11 +61,48 @@
         <mybatis.version>3.4.5</mybatis.version>
         <mybatis-spring-version>1.3.1</mybatis-spring-version>
         <jstl-version>1.2</jstl-version>
+        <activiti.version>6.0.0</activiti.version>
+        <shiro.version>1.4.0</shiro.version>
+        <quartz.version>2.3.0</quartz.version>
         <logback-version>1.2.3</logback-version>
         <logback-spring-version>0.1.4</logback-spring-version>
     </properties>
 
     <dependencies>
+
+        <dependency>
+            <groupId>org.quartz-scheduler</groupId>
+            <artifactId>quartz</artifactId>
+            <version>${quartz.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-all</artifactId>
+            <version>${shiro.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.activiti</groupId>
+            <artifactId>activiti-engine</artifactId>
+            <version>${activiti.version}</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>juel-spi</artifactId>
+                    <groupId>de.odysseus.juel</groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>juel-api</artifactId>
+                    <groupId>de.odysseus.juel</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>org.activiti</groupId>
+            <artifactId>activiti-spring</artifactId>
+            <version>${activiti.version}</version>
+        </dependency>
 
         <dependency>
             <groupId>net.sf.dozer</groupId>
