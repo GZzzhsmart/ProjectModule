@@ -57,12 +57,12 @@
         <init-param>
             <!-- 用户名，用户名和密码可以不写，不写时不需要输入，直接登录 -->
             <param-name>loginUsername</param-name>
-            <param-value>cfl</param-value>
+            <param-value>root</param-value>
         </init-param>
         <init-param>
             <!-- 密码 -->
             <param-name>loginPassword</param-name>
-            <param-value>cfl,1997</param-value>
+            <param-value>123456</param-value>
         </init-param>
     </servlet>
     <servlet-mapping>
@@ -76,4 +76,7 @@
     <listener>
         <listener-class>ch.qos.logback.ext.spring.web.LogbackConfigListener</listener-class>
     </listener>
+    <welcome-file-list>
+        <welcome-file>/index</welcome-file>
+    </welcome-file-list>
 </web-app>

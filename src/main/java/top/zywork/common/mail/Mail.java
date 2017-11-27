@@ -23,45 +23,45 @@ import java.util.List;
  */
 public class Mail {
 	
-	private MailAccount from;
-	private List<MailAccount> recipients;
-	private List<MailAccount> ccRecipients;
-	private List<MailAccount> bccRecipients;
+	private top.zywork.common.mail.MailAccount from;
+	private List<top.zywork.common.mail.MailAccount> recipients;
+	private List<top.zywork.common.mail.MailAccount> ccRecipients;
+	private List<top.zywork.common.mail.MailAccount> bccRecipients;
 	private String subject;
 	private String content;
 	private String contentType;
 	private List<String> files;
 	private Multipart multipart;
 
-	public MailAccount getFrom() {
+	public top.zywork.common.mail.MailAccount getFrom() {
 		return from;
 	}
 
-	public void setFrom(MailAccount from) {
+	public void setFrom(top.zywork.common.mail.MailAccount from) {
 		this.from = from;
 	}
 
-	public List<MailAccount> getRecipients() {
+	public List<top.zywork.common.mail.MailAccount> getRecipients() {
 		return recipients;
 	}
 
-	public void setRecipients(List<MailAccount> recipients) {
+	public void setRecipients(List<top.zywork.common.mail.MailAccount> recipients) {
 		this.recipients = recipients;
 	}
 
-	public List<MailAccount> getCcRecipients() {
+	public List<top.zywork.common.mail.MailAccount> getCcRecipients() {
 		return ccRecipients;
 	}
 
-	public void setCcRecipients(List<MailAccount> ccRecipients) {
+	public void setCcRecipients(List<top.zywork.common.mail.MailAccount> ccRecipients) {
 		this.ccRecipients = ccRecipients;
 	}
 
-	public List<MailAccount> getBccRecipients() {
+	public List<top.zywork.common.mail.MailAccount> getBccRecipients() {
 		return bccRecipients;
 	}
 
-	public void setBccRecipients(List<MailAccount> bccRecipients) {
+	public void setBccRecipients(List<top.zywork.common.mail.MailAccount> bccRecipients) {
 		this.bccRecipients = bccRecipients;
 	}
 

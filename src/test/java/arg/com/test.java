@@ -4,9 +4,7 @@ import org.junit.Test;
 
 import java.util.Calendar;
 
-/**
- * Created by chenfeilong on 2017/10/14.
- */
+
 public class test  {
     @Test
     public void testUtil() throws Exception{
