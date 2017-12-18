@@ -1,8 +1,8 @@
-ÏîÄ¿ÖĞÈç¹ûÊ¹ÓÃJasperReportsµ¼³öPDF»òHTML£¬PDFÖĞÎÄ½â¾ö·½°¸£º
-1¡¢ÏÂÔØjasperreports-fonts.jar°ü
-2¡¢½âÑ¹ºó°ÑÏµÍ³´øÓĞµÄÖĞÎÄ×ÖÌåÎÄ¼ş·ÅÈëµ½½âÑ¹ºóµÄnet\sf\jasperreports\fonts\dejavuÄ¿Â¼ÖĞ£¬Èçsimhei.ttfºÚÌå×ÖÌå
-3¡¢ÔÚfonts.xmlÎÄ¼şÖĞÔö¼ÓÈçÏÂÃèÊö
-    <fontFamily name="ºÚÌå">
+é¡¹ç›®ä¸­å¦‚æœä½¿ç”¨JasperReportså¯¼å‡ºPDFæˆ–HTMLï¼ŒPDFä¸­æ–‡è§£å†³æ–¹æ¡ˆï¼š
+1ã€ä¸‹è½½jasperreports-fonts.jaråŒ…
+2ã€è§£å‹åæŠŠç³»ç»Ÿå¸¦æœ‰çš„ä¸­æ–‡å­—ä½“æ–‡ä»¶æ”¾å…¥åˆ°è§£å‹åçš„net\sf\jasperreports\fonts\dejavuç›®å½•ä¸­ï¼Œå¦‚simhei.ttfé»‘ä½“å­—ä½“
+3ã€åœ¨fonts.xmlæ–‡ä»¶ä¸­å¢åŠ å¦‚ä¸‹æè¿°
+    <fontFamily name="é»‘ä½“">
             <normal>net/sf/jasperreports/fonts/dejavu/simhei.ttf</normal>
             <bold>net/sf/jasperreports/fonts/dejavu/simhei.ttf</bold>
             <italic>net/sf/jasperreports/fonts/dejavu/simhei.ttf</italic>
@@ -10,12 +10,12 @@
             <pdfEncoding>Identity-H</pdfEncoding>
             <pdfEmbedded>true</pdfEmbedded>
             <exportFonts>
-                <export key="net.sf.jasperreports.html">'ºÚÌå', Arial, Helvetica, sans-serif</export>
-                <export key="net.sf.jasperreports.xhtml">'ºÚÌå', Arial, Helvetica, sans-serif</export>
+                <export key="net.sf.jasperreports.html">'é»‘ä½“', Arial, Helvetica, sans-serif</export>
+                <export key="net.sf.jasperreports.xhtml">'é»‘ä½“', Arial, Helvetica, sans-serif</export>
             </exportFonts>
         </fontFamily>
-4¡¢ÖØĞÂ´ò°üÖĞjasperreports-fonts.jar°ü
-5¡¢´Ë°üÒÔClassesµÄĞÎÊ½¼ÓÈëµ½ÏîÄ¿ÖĞ
-6¡¢ÔÚJasperReports StudioÖĞÊ¹ÓÃÖĞÎÄÊ±£¬Ñ¡Ôñ×ÖÌåÎªsimhei×ÖÌå
+4ã€é‡æ–°æ‰“åŒ…ä¸­jasperreports-fonts.jaråŒ…
+5ã€æ­¤åŒ…ä»¥Classesçš„å½¢å¼åŠ å…¥åˆ°é¡¹ç›®ä¸­
+6ã€åœ¨JasperReports Studioä¸­ä½¿ç”¨ä¸­æ–‡æ—¶ï¼Œé€‰æ‹©å­—ä½“ä¸ºsimheiå­—ä½“
 
-×¢£º´ËÄ£°åÏîÄ¿ÖĞÒÑ¾­´ò°üÁË°üº¬ÓĞºÚÌåµÄjarÎÄ¼ş£¬´ËÎÄ¼ş´æ·ÅÔÚzywork-commonÄ£¿éµÄlibÄ¿Â¼ÏÂ
+æ³¨ï¼šæ­¤æ¨¡æ¿é¡¹ç›®ä¸­å·²ç»æ‰“åŒ…äº†åŒ…å«æœ‰é»‘ä½“çš„jaræ–‡ä»¶ï¼Œæ­¤æ–‡ä»¶å­˜æ”¾åœ¨zywork-commonæ¨¡å—çš„libç›®å½•ä¸‹
