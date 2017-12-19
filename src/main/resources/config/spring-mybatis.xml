@@ -83,7 +83,7 @@
     </tx:advice>
 
     <aop:config>
-        <aop:pointcut id="serviceMethods" expression="execution(* com.ht.serviceimpl.*.*(..))"/>
+        <aop:pointcut id="serviceMethods" expression="execution(* top.zywork.service.impl.*.*(..))"/>
         <aop:advisor advice-ref="txAdvice" pointcut-ref="serviceMethods"/>
     </aop:config>
 
